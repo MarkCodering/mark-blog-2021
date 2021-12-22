@@ -8,13 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Mark Chen',
   tagline: 'The Official Website from Mark Chen',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://www.marknext.co.in',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'img/Mark Chen Logo.png',
+  organizationName: 'Mark Chen', // Usually your GitHub org/user name.
+  projectName: 'Mark Chen Personal Website', // Usually your repo name.
 
   presets: [
     [
@@ -46,7 +46,7 @@ const config = {
         title: 'Home',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/Mark Chen Logo.png',
         },
         items: [
           {
