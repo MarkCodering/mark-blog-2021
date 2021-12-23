@@ -24,12 +24,11 @@ const IntroList = [
     ),
   },
   {
-    title: 'Passionate Lover',
+    title: 'Passionate Learner',
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        I am a passionate learner who enjoy learning process
       </>
     ),
   },
