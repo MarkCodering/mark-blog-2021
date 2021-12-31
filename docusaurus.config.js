@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/Mark Chen Logo.png',
+  favicon: 'img/Logo.png',
   organizationName: 'Mark Chen', // Usually your GitHub org/user name.
   projectName: 'Mark Chen Personal Website', // Usually your repo name.
 
@@ -45,8 +45,8 @@ const config = {
       navbar: {
         title: 'Home',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/Mark Chen Logo.png',
+          alt: 'Logo',
+          src: 'img/Logo.png',
         },
         items: [
           {
@@ -68,28 +68,36 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Links',
             items: [
               {
-                label: 'Tutorial',
+                label: 'About',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
+              {
+                label: 'Contact',
+                to: '/contact',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Connect with me',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/mark-chen-next/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'GitHub',
+                href: 'https://github.com/MarkCodering',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Microsoft Learn Student Ambassador Profile',
+                href: 'https://studentambassadors.microsoft.com/en-US/profile/103340',
               },
             ],
           },
@@ -97,17 +105,17 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'YouTube Channel',
+                href: 'https://www.youtube.com/channel/UCkPWNhP80z41tEDvuCMSfGQ',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+                label: 'Facebook',
+                href: 'https://www.facebook.com/mark.chen.sstm',
+              },  
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Mark Chen. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

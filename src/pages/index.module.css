@@ -7,10 +7,12 @@
   background-image: url('./main.jpg');
   background-position: center;  
   background-size: cover;
-  height: 100vh;
-  padding: 4rem 0;
+  height: 85vh;
+  padding: 2dp;
   text-align: center;
   position: relative;
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
 }
 
@@ -24,5 +26,5 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5%;
+  padding: 27.5%;
 }
