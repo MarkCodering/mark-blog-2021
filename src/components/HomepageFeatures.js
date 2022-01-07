@@ -1,42 +1,63 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './HomepageFeatures.module.css';
+import React from "react";
+import clsx from "clsx";
+import styles from "./HomepageFeatures.module.css";
+import { makeStyles } from "@mui/styles";
 
 const IntroList = [
   {
-    title: 'Tech Lover',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: "Computer Science Student",
+    Svg: require("../../static/img/undraw_docusaurus_mountain.svg").default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        I am a computer science student at Tamkang University, Taiwan. I mainly
+        concentrates on the development of embedded systems and application
+        development with various software stacks. Also, I am really passionate
+        about the emerging technologies in the tech domain, like autonomous
+        vehicle and quantum computing.
       </>
     ),
   },
   {
-    title: 'Engineer',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: "Avionics Engineer",
+    Svg: require("../../static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        I am an avionics engineer at Space Technology Lab. I am primarily
+        responsible for the development of the avionics software and hardware
+        integration with PCB. Besides, I am in-charge of the data analysis with
+        Matlab and Python after the rocket was launched.
       </>
     ),
   },
   {
-    title: 'Passionate Learner',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: "Content Creator",
+    Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
     description: (
       <>
-        I am a passionate learner who enjoy learning process
+        I am a content creator on YouTube and my blog. I am passionate about
+        sharing my experiences as a developer and engineering student. Moreover,
+        I would like to deliver a message that you can achieve more than imagine
+        with my videos and contents by empower students and learners across the
+        globe to use technology.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+const useStyles = makeStyles({
+  title: {
+    fontSize: "2.5rem",
+    textAlign: "center",
+    alignContent: "center",
+    justifyContent: "center",
+    fontWeight: "bold",
+    padding: "1.5rem",
+  },
+});
+
+function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx("col col--4")}>
       <div className="text--center">
         <Svg className={styles.featureSvg} alt={title} />
       </div>
@@ -49,9 +70,11 @@ function Feature({Svg, title, description}) {
 }
 
 export default function HomepageFeatures() {
+  const fontStyles = useStyles();
   return (
     <section className={styles.features}>
       <div className="container">
+        <h1 className={fontStyles.title}>About Mark...</h1>
         <div className="row">
           {IntroList.map((props, idx) => (
             <Feature key={idx} {...props} />
