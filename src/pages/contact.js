@@ -42,7 +42,7 @@ export default function Contact() {
       <div className={classes.root}>
         <h1 className={classes.title}>Contact: </h1>
         <Button
-          onClick="409416533@gms.tku.edu.tw"
+          href="409416533@gms.tku.edu.tw"
           classesName={classes.button}
           variant="contained"
           startIcon={<EmailIcon />}

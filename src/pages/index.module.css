@@ -4,16 +4,56 @@
  */
 
 .heroBanner {
-  background-image: url('./main.jpg');
-  background-position: center;  
-  background-size: cover;
-  height: 85vh;
-  padding: 2dp;
-  text-align: center;
+  height: 80vh;
+  display: flexbox;
   position: relative;
-  display: flex;
-  flex-direction: column;
+  background-image: url('./wallpaper.jpg');
+  background-position: center; 
+  align-items: center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed
+}
+
+.heroBackground{
+  background-image: url('./wallpaper.jpg');
+  background-position: center; 
+  align-items: center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 2rem;
+  margin: 0;
+}
+
+.heroTitle{
+  color: #38b6ff;
+  margin: 0;
+  font-size: 4.5rem;
+  font-weight: bold;
+  text-align: left;
+  justify-content: left;
+  animation: 
+    typing 2.8s steps(40, end),
+    blink-caret .75s step-end;
   overflow: hidden;
+  border-right: .15em solid #38b6ff; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .0.5em; /* Adjust as needed */
+}
+
+.heroSubTitle{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: left;
+}
+
+.heroTrailer{
+  align-items: right;
+  margin-right: 2rem;
+  justify-content: center;
 }
 
 @media screen and (max-width: 966px) {
@@ -22,9 +62,19 @@
   }
 }
 
+@keyframes typing{
+  from{width: 0}
+  to{width: 100%}
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #38b6ff; }
+}
+
 .buttons {
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 27.5%;
+  justify-content: left;
+  margin: 0px;
 }
