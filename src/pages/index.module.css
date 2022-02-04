@@ -40,7 +40,6 @@
   border-right: .15em solid #38b6ff; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .0.5em; /* Adjust as needed */
 }
 
 .heroSubTitle{
