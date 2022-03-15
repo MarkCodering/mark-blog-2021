@@ -34,8 +34,8 @@ export default function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="An Official Site from Mark Chen"
     >
-      <HomepageHeader />
       <main>
+        <HomepageHeader />
         <HomepageFeatures />
       </main>
     </Layout>
