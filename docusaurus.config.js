@@ -121,6 +121,9 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      googleAdsense: {
+      dataAdClient: 'ca-pub-4933498318589101',
+    },
     }),
     plugins: [
     [
@@ -129,13 +132,7 @@ const config = {
         trackingID: 'G-W39BR9K95E',
         anonymizeIP: true,
       },
-    ],
-    [
-      '@docusaurus-plugin-google-adsense',
-      {
-        dataAdClient: 'ca-pub-4933498318589101',
-      },
-    ],
+    ]
   ],
 };
 
