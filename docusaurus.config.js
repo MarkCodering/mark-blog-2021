@@ -131,7 +131,7 @@ const config = {
       },
     ],
     [
-      'docusaurus-plugin-google-adsense',
+      '@docusaurus-plugin-google-adsense',
       {
         dataAdClient: 'ca-pub-4933498318589101',
       }
