@@ -11,7 +11,7 @@ const useStyles = makeStyles({
     justifyContent: "center",
     alignItems: "center",
     flexDirection: "row",
-	padding: "1rem",
+    padding: "1rem",
     height: "100vh",
     width: "100vw",
     backgroundImage: `url("/img/theme.jpg")`,
@@ -21,8 +21,8 @@ const useStyles = makeStyles({
     color: "#fff",
     fontWeight: "bold",
     textShadow: "2px 2px #000",
-	margin: "0",
-	padding: "5%",
+    margin: "0",
+    padding: "5%",
   },
   logo: {
     height: "17vh",
@@ -30,8 +30,8 @@ const useStyles = makeStyles({
     margin: "0",
   },
   button: {
-	margin: "0",
-	padding: "5%",
+    margin: "0",
+    padding: "5%",
   },
 });
 
