@@ -1,11 +1,11 @@
 ---
-slug: motion-time-blocking
+slug: notion-time-blocking
 title: How to do time-blocking with Notion?
 authors:
   name: Mark Chen
   title: CS Student || Microsoft Learn Student Ambassador || Core Member of Google Developer Student Club || Engineer at Space Technology Lab, Tamkang University || Content Creator
   url: https://www.linkedin.com/in/mark-chen-next/
-  image_url: https://media-exp1.licdn.com/dms/image/C5603AQFlKOboAQM4bw/profile-displayphoto-shrink_400_400/0/1613564874796?e=1646870400&v=beta&t=0en3MMv35zj60jUnMubPEOxtdjVjrewRuckCI0yOqL4
+  image_url: https://media-exp1.licdn.com/dms/image/C5603AQFlKOboAQM4bw/profile-displayphoto-shrink_400_400/0/1613564874796?e=2147483647&v=beta&t=mrs-DjhMRgtu63noCQYAsxjWa6epl-CVGUiluvrmxug
 tags: [2022, notion, time-blocking]
 ---
 

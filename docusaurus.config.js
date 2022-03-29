@@ -58,7 +58,7 @@ const config = {
           {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/contact', label: 'Contact', position: 'left'}
 		,{
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/MarkCodering',
             label: 'GitHub',
             position: 'right',
           },
