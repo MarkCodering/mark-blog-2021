@@ -10,6 +10,8 @@ tags: [networking, computer-science, developer community]
 ---
 # How to connect with interesting people in tech domain? || Three Interesting Insights from a tech community builder
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1W5IlvlLdN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Why should you connect with people in tech domain as a CS student?
 As a computer science student, one my interests is to engage and connect with interesting people in tech domain. Also, I am a Microsoft learn student ambassador and the core member of Google developer student club at Tamkang University. My mission to empower everyone on campus with interests or passion in technology to achieve more! Therefore, I get a chance to connect with some of the amazing talents in Taiwan and beyond to share our idea and story in technical domains.
 
