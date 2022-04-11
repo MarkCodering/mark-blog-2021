@@ -9,6 +9,8 @@ authors:
 tags: [google-cloud, microsoft-azure, cloud-computing]
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u0RhM_HzOvA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## What is cloud computing?
 Cloud computing is a delivery of computing services or resources via the Internet (the cloud) to help IT professionals, developer, administrators, and many more to host application, management IT solutions, and beyond with lower costs of operation. In the modern day of IT operation, the reliability and scalability matters. Therefore, it is vital for IT professionals to take advantages of cloud services provider to implement their IT solutions
 
