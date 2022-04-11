@@ -4,10 +4,9 @@
  */
 
 .heroBanner {
-  height: 80vh;
+  height: 60vh;
   display: flexbox;
-  position: relative;
-  background-image: url('./wallpaper.jpg');
+  background-image: url('./main.jpg');
   background-position: center; 
   align-items: center; 
   background-size: cover;
@@ -16,7 +15,7 @@
 }
 
 .heroBackground{
-  background-image: url('./wallpaper.jpg');
+  background-image: url('./main.jpg');
   background-position: center; 
   align-items: center; 
   background-size: cover;
@@ -29,24 +28,20 @@
 .heroTitle{
   color: #38b6ff;
   margin: 0;
-  font-size: 4.5rem;
+  font-size: 2.8rem;
   font-weight: bold;
-  text-align: left;
-  justify-content: left;
-  animation: 
-    typing 2.8s steps(40, end),
-    blink-caret .75s step-end;
+  text-align: center;
+  justify-content: center;
   overflow: hidden;
-  border-right: .15em solid #38b6ff; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
 }
 
 .heroSubTitle{
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: bold;
   color: #ffffff;
-  text-align: left;
+  text-align: center;
 }
 
 .heroTrailer{
@@ -74,6 +69,6 @@
 .buttons {
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   margin: 0px;
 }

@@ -11,9 +11,9 @@ const YouTubeVideo = (props) => {
       <div className="YouTubeVideos">
         <iframe
           title={props.title}
-          width="560"
-          height="315"
           src={props.src}
+          height="100%"
+          width="100%"
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
@@ -42,7 +42,7 @@ export default function LatestContents() {
       <YouTubeVideo
         title="YouTube Videos"
         descriptions="Welcome to my YouTube Channel where we learn more about technology while supercharge our productivity with tech-enabled approachs"
-        src="https://www.youtube.com/embed/1W5IlvlLdN0"
+        src="https://www.youtube.com/embed/u0RhM_HzOvA"
       />
     </div>
   );

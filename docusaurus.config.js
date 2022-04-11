@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Mark Chen',
+  title: 'print("Hello")',
   tagline: 'The Official Website from Mark Chen',
   url: 'https://www.marknext.co.in',
   baseUrl: '/',

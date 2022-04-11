@@ -1,7 +1,6 @@
 .YouTubeVideos {
   justify-content: right;
   align-items: center;
-  margin: 0%;
 }
 
 .ContentTitle{
@@ -14,7 +13,6 @@
 .ContentDescription{
   font-size: 1.5rem;
   margin: 0;
-  padding-right: 15%;
 }
 
 .ContentLayout{
@@ -22,7 +20,35 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  max-width: 100%;
   margin: 0;
   padding: 3.5%;
+  position: relative;
+}
+
+@media screen and (max-width: 966px) {
+  .ContentLayout{
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .ContentTitle{
+    font-size: 0.5rem;
+    font-weight: bold;
+    margin: 0;
+    align-items: center;
+  }
+
+  .ContentDescription{
+    font-size: 1rem;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    padding-right: 0;
+  }
+
+  .YouTubeVideos{
+    height: 100%;
+    width: 100%;
+    margin-top: 1.5rem;
+  }
 }
