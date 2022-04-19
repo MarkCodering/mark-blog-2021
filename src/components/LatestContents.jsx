@@ -42,7 +42,7 @@ export default function LatestContents() {
       <YouTubeVideo
         title="YouTube Videos"
         descriptions="Welcome to my YouTube Channel where we learn more about technology while supercharge our productivity with tech-enabled approachs"
-        src="https://www.youtube.com/embed/u0RhM_HzOvA"
+        src="https://www.youtube.com/embed/fNOgAhHSva0"
       />
     </div>
   );
